@@ -1,0 +1,11 @@
+#if you decide to help on the project, you may decide to take on a full project
+#if you decide to do so, please add your name below via PR
+
+WebApp Implementation 
+	- backend stuff - Bkamp
+	- front end stuff - John (hopefully)
+
+Python Implementation - Bkamp
+
+C/C++/C# Implementation - no one
+
