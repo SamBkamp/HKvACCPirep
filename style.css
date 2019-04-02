@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Lato');
+html, body {
+/*   overflow-x: hidden; */
+  padding: 0px;
+  margin: 0px;
+  font-family: Roboto Mono;
+}
+
+#header {
+  width: 100vw;
+  height: 10vh;
+  border-bottom: 2px solid red;
+}
+#title {
+  margin-left: 7%;
+  margin-top: 7vh;
+  font-size: 3vh;
+  font-family: Lato;
+}
+#text {
+/*   text-align: center; */
+}
+.header {
+  display: inline-block;
+  margin-top: 6vh;
+  margin-left: 10vw;
+  font-family: Lato;
+  font-size: 1vw;
+}
+#callsign{
+  margin-left: 2vw;
+}
+#callsignIN {
+  margin-left: 2vw;
+}
+#depaipIN {
+  margin-left: 6.4vw;
+  text-align: left;
+}
+#arraipIN{
+  margin-left: 8.6vw;
+  text-align: left;
+}
+.inps {
+  display: inline-block;
+  margin-top: 1vh;
+  margin-left: 4vw;
+  font-family: Roboto Mono;
+  font-size: 1vw;
+  width: 9vw;
+}
+#freetext{
+  margin-left: 2vw;
+  margin-top: 4vh;
+}
+#textheader {
+  font-size: 1vw;
+}
+#freetextIN {
+  width: 58vw;
+  height: 30vh;
+  font-size: 1vw;
+  resize: none;
+  border: 2px solid #A9A9A9;
+}
+
+button {
+  outline:none;
+  height: 4.4vh;
+  text-align: center;
+  width: 130px;
+  border-radius:40px;
+  background: #fff;
+  border: 2px solid #1ECD97;
+  color: #1ECD97;
+  letter-spacing:1px;
+  text-shadow:0;
+  font-size:1vw;
+  font-weight:bold;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  margin-left: 60vw;
+  margin-top: 10vh;
+}
+  button:hover {
+    color:white;
+    background: #1ECD97;
+  }
+  button:active {
+    letter-spacing: 2px ;
+  }
+  button:after {
+    content:"SUBMIT";
+  }
+
+
+
+
+
