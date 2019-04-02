@@ -16,9 +16,7 @@
 
   if ($_POST["callsign"] == "" or $_POST["aircrafttype"] == "" or $_POST["dep"] == "" or $_POST["arr"] == ""){
     $GOLBALS["error"] = "please enter all fields";
-    exit();
   }else {
-    //$sql = "INSERT INTO pdclog (cs, atype, dep, arr) VALUES ('yes', 'yes', 'yes', 'yes')";
     $sql = "INSERT INTO pdclog (cs, atype, dep, arr, free) VALUES ('" . $_POST["callsign"] . "', '" . $_POST["aircrafttype"] . "', '" . $_POST["dep"] . "', '" . $_POST["arr"] . "', '" . $_POST["free"] . "')";
 
     
